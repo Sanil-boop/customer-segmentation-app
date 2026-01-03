@@ -1,0 +1,28 @@
+💎 Premium High Spender
+    Income = 100
+    Spending Score = 90
+    Expected output: Premium High Spender 💎
+
+🧐 Careful Wealthy Spender
+    Income = 120
+    Spending Score = 25
+    Expected output:Careful Wealthy Spender 🧐
+
+⚡ Young Impulsive Buyer
+    Income = 30
+    Spending Score = 85
+    Young Impulsive Buyer ⚡
+
+
+🧾 Budget Saver
+    Income = 25
+    Spending Score = 20
+    Expected output:Budget Saver 🧾
+
+
+🙂 Average Customer
+Income = 60
+Spending Score = 50
+Expected output:Average Customer 🙂
+
+

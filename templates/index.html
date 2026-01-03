@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Segmentation</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<div class="card">
+
+<h2>🛍 Customer Segmentation Using K-Means</h2>
+
+<form method="POST">
+
+<label>Annual Income (k$)</label>
+<input type="number" step="0.1" name="income" required>
+
+<label>Spending Score</label>
+<input type="number" step="0.1" name="score" required>
+
+<button type="submit">Predict Segment</button>
+
+</form>
+
+{% if segment %}
+<div class="result">
+<p>{{ segment }}</p>
+</div>
+{% endif %}
+
+</div>
+</body>
+</html>

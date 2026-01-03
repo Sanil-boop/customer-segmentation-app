@@ -8,11 +8,11 @@ model = joblib.load("customer_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 cluster_labels = {
-    0: "Premium High Spender 💎",
-    1: "Budget Saver 🧾",
-    2: "Careful Wealthy Spender 🧐",
-    3: "Young Impulsive Buyer ⚡",
-    4: "Average Customer 🙂"
+    1: "Premium High Spender 💎",
+    4: "Budget Saver 🧾",
+    3: "Careful Wealthy Spender 🧐",
+    2: "Young Impulsive Buyer ⚡",
+    0: "Average Customer 🙂"
 }
 
 @app.route("/", methods=["GET","POST"])
